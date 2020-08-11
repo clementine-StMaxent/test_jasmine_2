@@ -11,9 +11,7 @@ describe("La fonction HelloWorld", () => {
     const toLowerCase =(str)=> {
         return str.toLowerCase();
     }
-const utils = ()=>{
-    // rien
-}
+
     beforeAll(function () {
         console.log('Tous lire');
     });
@@ -36,7 +34,6 @@ const utils = ()=>{
         console.log('troisième tâche');
         expect(true).toBe(true);
     });
-
 
     afterAll(() => console.log('Effacer les data'));
 
